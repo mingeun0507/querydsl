@@ -51,6 +51,7 @@ class TypeExtractor extends SimpleTypeVisitorAdapter<TypeElement, Void> {
             TypeElement typeElement = (TypeElement) t.asElement();
             switch (typeElement.getKind()) {
                 case ENUM:      return skipEnum ? null : typeElement;
+                case RECORD:    return typeElement; // Added for Record support
                 case CLASS:     return typeElement;
                 case INTERFACE: return visitInterface(t);
                 default: throw new IllegalArgumentException("Illegal type: " + typeElement);
