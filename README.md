@@ -1,5 +1,14 @@
 ## Querydsl
 
+## Modifications
+
+The original Querydsl source code has been modified by `mingeun0507` in accordance with the Apache License, Version 2.0. The modifications include:
+
+- Added support for Java Record types in `TypeExtractor` class for improved type handling.
+
+These modifications are available under the same Apache License, Version 2.0. Full details of the license can be found in the LICENSE file.
+
+## Original README
 Querydsl is a framework which enables the construction of type-safe SQL-like queries for multiple backends including JPA, MongoDB and SQL in Java.
 
 Instead of writing queries as inline strings or externalizing them into XML files they are constructed via a fluent API.
