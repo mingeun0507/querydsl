@@ -9,8 +9,8 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <groupId>com.querydsl</groupId>
-  <artifactId>querydsl-apt</artifactId>
+  <groupId>com.github.mingeun0507</groupId>
+  <artifactId>querydsl-apt-for-records</artifactId>
   <name>Querydsl - APT support</name>
   <description>APT based Source code generation for Querydsl</description>
   <url>${project.homepage}</url>
